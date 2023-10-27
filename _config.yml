@@ -21,14 +21,16 @@
 title: twocircles.de - marketing technology & analytics engineering
 email: ismail.reimchen@twocircles.de
 description: >- # this means to ignore newlines until "baseurl:"
-  We make data drive marketing & sales by leveraging cutting-edge marketing technology and advanced analytics engineering
+  We make data drive marketing & sales by leveraging 
+  cutting-edge marketing technology and advanced analytics engineering
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://www.twocircles.de" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ismailytics
 github_username:  ismailytics
 
 # Build settings
-theme: minima
+remote_theme: sighingnow/jekyll-gitbook
+## theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
